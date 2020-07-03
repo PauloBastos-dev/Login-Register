@@ -1,0 +1,11 @@
+galaxy S5                 2 360 x 640 2
+galaxy S9                 2 360 x 740 5
+iPad                      5 768 x 1024 7
+iPad Pro 10.5pol          7 834 x 1112 9
+iPad Pro 12.9pol         8 1024 x 1366 11
+iPhone 5/SE               1 320 x 568 1
+iPhone 6/7/8 iOS 11       3 375 x 667 3
+iPhone 6/7/8 Plus iOS 11  4 414 x 736 4
+iPhone X/XS iOS 12        3 375 x 812 6
+Kindle Fire HDX Linux     6 800 x 1280 10
+1080p Full HD Television 9 1920 x 1080 8
