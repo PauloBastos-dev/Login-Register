@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight:  300; box-sizing: border-box; font-family: 'Lato', sans-serif;}
+body { background-color: #F5FBEF;}
+a { text-decoration:  none;}
+url { list-style: none;}
+.App {
+  /*  margin: 0 auto;
+    width: 480px;*/
+}
+.container {
+  /*border:1px solid #c0c0c0;*/
+  /*background: #D0F5A9;*/
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+  }
