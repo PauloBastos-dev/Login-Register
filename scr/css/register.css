@@ -1,0 +1,225 @@
+* { margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300px; box-sizing: border-box; font-family: 'Lato', sans-serif;}
+body { background-color: #F5FBEF;}
+a { text-decoration: none;}
+url { list-style: none;}
+a:link, a:visited {
+	text-decoration: none;
+	}
+a:hover {
+	/*text-decoration: underline;*/
+  text-decoration: none;
+	color: #5FB404;
+	}
+a:active {
+	text-decoration: none;
+	border: none;
+	outline: none;
+	}
+	a:focus {
+		text-decoration: none;
+		border: none;
+		outline: none;
+		}
+.Rlog {
+	margin-top: -5%;
+	width:22em;
+	height:37em;
+	border:1px solid #c0c0c0;
+  background: #D0F5A9;
+}
+.Llog{
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Llog1 {
+  width: 12em;
+  margin-top: -1em;
+  margin-bottom: -1em;
+ }
+ .Lform-Group {
+   width: 90%;
+   margin: 0;
+   margin-top: 0;
+   margin-left: 1em;
+ }
+ input.Lform-Field {
+     border: none;
+     background: rgba(0, 0, 0, .25);
+     color: #fdfdfd;
+     margin-top: .7em;
+     padding: 2rem;
+     font-size: 1em;
+     border-radius: 5px;
+     width: 100%;
+     height:1.4em;
+     transition: all .1s linear;
+ }
+
+
+.Lform-Field:focus {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+    outline: none;
+}
+
+
+.Lform-Error1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  position: absolute;
+  background: #ACFA58;
+  border-radius: .5em;
+  width: 13em;
+  height: 1.8em;
+  font-size: .9em;
+  color: #ff8080;
+  -webkit-transition: 0.5s ease-out;
+  -moz-transition: 0.5s ease-out;
+  -o-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.Lform-Error1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 1.8em;
+  left: 2em;
+  width: 0;
+  border-width: 0 .5em .9em;
+  border-style: solid;
+  border-color: #9AFE2E transparent;
+}
+.Lform-Error2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  position: absolute;
+  background: #ACFA58;
+  border-radius: .5em;
+  width: 20em;
+  height: 2.7em;
+  font-size: .9em;
+  color: #ff8080;
+  -webkit-transition: 0.5s ease-out;
+  -moz-transition: 0.5s ease-out;
+  -o-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.Lform-Error2:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 2.7em;
+  left: 2em;
+  width: 0;
+  border-width: 0 .5em .9em;
+  border-style: solid;
+  border-color: #9AFE2E transparent;
+}
+.Lform-RBtn {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+			background: #ACFA58;
+			color: #fdfdfd;
+			font-size: 1.2em;
+			font-weight:bold;
+			padding: 1.2em 2em;
+			border: none;
+			border-radius: 5px;
+			margin-left: 5%;
+			margin-top: 5%;
+			margin-bottom: 10%;
+			width: 90%;
+			height: 2em;
+}
+
+.Lform-RBtn:hover {
+    cursor: pointer;
+}
+.Lform-RBtn:focus {
+	text-decoration: none;
+  border: none;
+	outline: none;
+}
+.VlogR1 {
+  width: 2em;
+  height: 2em;
+  padding: 0;
+  margin: 0;
+  margin-left: -.4em;
+  margin-bottom: 0;
+  margin-top: -.5em;
+}
+.VlogR2 {
+  /*background: #fdfdfd;*/
+  margin-top: -33.5em;
+  margin-left: 1.2em;
+  width:1em;
+  height: 1em;
+}
+
+.Lform-Rcad {
+    /*position: absolute;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*left: 0;*/
+    width: 100%;
+    height: 4em;
+    border: .1em solid #c0c0c0;
+  /*  margin-left: 0px;*/
+   margin-top: 32.8em;
+   background: #D0F5A9;
+}
+.txt3 {
+/*  display:block;*/
+  margin-top: -.3em;
+  margin-left: 0em;
+  font-size: 1em;
+  font-weight: bolder;
+  color: #243B0B;
+}
+.Lform-obt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top:1%;
+  width: 100%;
+  height: 5em;
+/*  background: #DF01D7;*/
+}
+.txt4 {
+  margin-top: -4em;
+  margin-left: .4em;
+  font-weight: bolder;
+  color: #243B0B;
+}
+.Llog2 {
+  width: 8em;
+  padding: 0;
+  margin-left: -8.6em;
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+.spc {
+	margin-top: .8em;
+	}
+.senhatexto {
+	margin-left: 2em;
+	font-size: 1.2rem;
+	font-weight: bolder;
+	margin-bottom: 0;
+	padding: 0;
+}

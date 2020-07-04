@@ -1,0 +1,468 @@
+* { margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300px; box-sizing: border-box; font-family: 'Lato', sans-serif;}
+body { background-color: #F5FBEF;}
+a { text-decoration: none;}
+url { list-style: none;}
+a:link, a:visited {
+	text-decoration: none;
+	}
+a:hover {
+	/*text-decoration: underline;*/
+  text-decoration: none;
+	color: #5FB404;
+	}
+	a:active {
+		text-decoration: none;
+		border: none;
+		outline: none;
+		}
+		a:focus {
+			text-decoration: none;
+			border: none;
+			outline: none;
+			}
+.Lbox {
+  margin-top: -45%;
+  width:22em;
+  height:29em;
+
+  border:1px solid #c0c0c0;
+  background: #D0F5A9;
+
+/*  margin-top: 0px;*/
+  /*background: #fdfdfd;*/
+}
+
+.Llog{
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*background: #20c997;*/
+}
+.Llog1 {
+  width: 12em;
+  margin-top: -1em;
+  margin-bottom: -1em;
+ }
+.Lform-Group {
+  width: 90%;
+  margin: 0;
+  margin-top: 0;
+  margin-left: 1em;
+  /*background: #0040FF;*/
+}
+input.Lform-Field {
+    border: none;
+    background: rgba(0, 0, 0, .25);
+    color: #fdfdfd;
+    margin-top: .7em;
+    padding: 2rem;
+    font-size: 1em;
+    border-radius: 5px;
+    width: 100%;
+    height:1.4em;
+    transition: all .1s linear;
+}
+
+.Lform-Field:focus {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+    outline: none;
+}
+
+.Lform-Error {
+  /*  color: #ff8080;*/
+
+}
+.Lform-Error1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  position: absolute;
+  background: #ACFA58;
+  border-radius: .5em;
+  width: 13em;
+  height: 1.8em;
+  font-size: .9em;
+  color: #ff8080;
+  -webkit-transition: 0.5s ease-out;
+  -moz-transition: 0.5s ease-out;
+  -o-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.Lform-Error1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 1.8em;
+  left: 2em;
+  width: 0;
+  border-width: 0 .5em .9em;
+  border-style: solid;
+  border-color: #9AFE2E transparent;
+}
+
+.Lform-cx {
+  /*position:relative;*/
+    margin-top: 0;
+  /*  background: #20c997;*/
+}
+.txt1 {
+  /*position:relative;*/
+  margin-top: 0;
+  margin-left: 0;
+  font-size: 0;
+  font-weight:normal;
+  color: #243B0B;
+}
+.txt2 {
+  /*position:absolute;*/
+  margin-top: 0em;
+  margin-left: 6.4em;
+  font-size: 1em;
+  font-weight: bolder;
+  color: #243B0B;
+}
+.Echeckbox input[type="checkbox"]{
+    display:none; /* Esconde os inputs */
+}
+
+.Echeckbox label {
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-left: 6.3em;
+    margin-bottom: 1em;
+}
+.Echeckbox label:hover {
+	color: #5FB404;
+	}
+.Echeckbox input[type="checkbox"] + label:before {
+    border: 1px solid #5D5C5C;
+    content: "\00a0";
+    display: inline-block;
+    font: 1em/1em sans-serif;
+    width: 1.3em;
+    height: 1.3em;
+    margin: 0 .25em 0 0;
+    padding:0;
+    vertical-align: top;
+    border-radius:4px;
+}
+
+.Echeckbox input[type="checkbox"]:checked + label:before {
+    background: #ACFA58;
+    color: #ff8080;
+    content: "\2713";
+    text-align: center;
+}
+
+.Echeckbox input[type="checkbox"]:checked + label:after {
+    font-weight: bold;
+}
+
+.Lform-Btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+    background: #ACFA58;
+    color: #fdfdfd;
+    font-size: 1.2em;
+    font-weight:bold;
+    padding: 1.2em 2em;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 90%;
+    height: 2em;
+}
+
+.Lform-Btn:hover {
+    cursor: pointer;
+}
+.Lform-Btn:focus {
+	text-decoration: none;
+  border: none;
+	outline: none;
+	}
+.Vlog1 {
+  width: 2em;
+  height: 2em;
+  padding: 0;
+  margin: 0;
+  margin-left: -.4em;
+  margin-bottom: 0;
+  margin-top: -.5em;
+}
+.Vlog2 {
+  /*background: #fdfdfd;*/
+  margin-top: -24.3em;
+  margin-left: 1.2em;
+  width:1em;
+  height: 1em;
+}
+
+.Lform-cad {
+    /*position: absolute;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*left: 0;*/
+    width: 100%;
+    height: 4em;
+    border: .1em solid #c0c0c0;
+  /*  margin-left: 0px;*/
+   margin-top: 24.8em;
+   background: #D0F5A9;
+}
+.txt3 {
+/*  display:block;*/
+  margin-top: -.3em;
+  margin-left: 0em;
+  font-size: 1em;
+  font-weight: bolder;
+  color: #243B0B;
+}
+.Lform-obt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top:1%;
+  width: 100%;
+  height: 5em;
+/*  background: #DF01D7;*/
+}
+.txt4 {
+  margin-top: -4em;
+  margin-left: .4em;
+  font-weight: bolder;
+  color: #243B0B;
+}
+.Llog2 {
+  width: 8em;
+  padding: 0;
+  margin-left: -8.6em;
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+
+
+/* START TOOLTIP STYLES */
+[tooltip] {
+position: relative; /* opinion 1 */
+margin-top: -24.3em;
+margin-left: 1.2em;
+width:1em;
+height: 1em;
+/*background: #9AFE2E;*/
+
+}
+
+/* Applies to all tooltips */
+[tooltip]::before,
+[tooltip]::after {
+text-transform: none; /* opinion 2 */
+font-size: 1em; /* opinion 3 */
+line-height: 1;
+user-select: none;
+pointer-events: none;
+position: absolute;
+display: none;
+opacity: 0;
+
+}
+[tooltip]::before {
+content: '';
+border: .5em solid transparent; /* opinion 4 */
+z-index: 1001; /* absurdity 1 */
+
+}
+[tooltip]::after {
+content: attr(tooltip); /* magic! */
+
+/* most of the rest of this is opinion */
+/*font-family: Helvetica, sans-serif;*/
+text-align: center;
+
+/*
+	Let the content set the size of the tooltips
+	but this will also keep them from being obnoxious
+	*/
+min-width: 3em;
+max-width: 20em;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+padding: .3ch 1ch .4ch;
+border-radius: 2ch;
+box-shadow: 0 1em 2em -.5em rgba(0, 0, 0, 0.35);
+background: #9AFE2E;
+color: #4B8A08;
+z-index: 1000; /* absurdity 2 */
+}
+
+/* Make the tooltips respond to hover */
+[tooltip]:hover::before,
+[tooltip]:hover::after {
+display: block;
+
+}
+
+/* don't show empty tooltips */
+[tooltip='']::before,
+[tooltip='']::after {
+display: none !important;
+
+}
+
+/* FLOW: UP */
+[tooltip]:not([flow])::before,
+[tooltip][flow^="up"]::before {
+bottom: 100%;
+/*border-bottom-width: 0;*/
+border-width: 1em .5em 0 ;
+border-top-color: #9AFE2E;
+
+}
+[tooltip]:not([flow])::after,
+[tooltip][flow^="up"]::after {
+bottom: calc(100% + .8em);
+
+}
+[tooltip]:not([flow])::before,
+[tooltip]:not([flow])::after,
+[tooltip][flow^="up"]::before,
+[tooltip][flow^="up"]::after {
+left: 80%;
+transform: translate(-50%, -.1em);
+
+}
+
+
+/* KEYFRAMES */
+@keyframes tooltips-vert {
+to {
+	opacity: .9;
+	transform: translate(-50%, 0);
+
+}
+}
+
+@keyframes tooltips-horz {
+to {
+	opacity: .9;
+	transform: translate(0, -50%);
+
+}
+}
+
+/* FX All The Things */
+[tooltip]:not([flow]):hover::before,
+[tooltip]:not([flow]):hover::after,
+[tooltip][flow^="up"]:hover::before,
+[tooltip][flow^="up"]:hover::after,
+[tooltip][flow^="down"]:hover::before,
+[tooltip][flow^="down"]:hover::after {
+animation: tooltips-vert 500ms ease-out forwards;
+
+}
+
+[tooltip][flow^="left"]:hover::before,
+[tooltip][flow^="left"]:hover::after,
+[tooltip][flow^="right"]:hover::before,
+[tooltip][flow^="right"]:hover::after {
+animation: tooltips-horz 300ms ease-out forwards;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* UNRELATED to tooltips */
+
+main {
+flex: 1 1 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+main div {
+text-align: center;
+color: #353539;
+}
+main span {
+padding: .5em 1em;
+margin: .5em;
+display: inline-block;
+background: #9AFE2E;
+}
+
+/****************************************************************************************************************************************************************/
+/*Moto G4 e Galaxy S5 360x640/ galaxy S9 360x740*/
+@media only screen and (min-width: 360px) {
+
+}
+/****************************************************************************************************************************************************************/
+
+@media only screen and (orientation:landscape) {
+	.Lbox {
+	  margin-top: 20%;
+	  width:22em;
+	  height:29em;
+	  border:1px solid #c0c0c0;
+	  background: #D0F5A9;
+
+	/*  margin-top: 0px;*/
+	  /*background: #fdfdfd;*/
+	}
+
+
+
+}
+@media only screen and (min-width: 824px) and (orientation:landscape) {
+	.Lbox {
+	  margin-top: -15%;
+	  width:22em;
+	  height:29em;
+	  border:1px solid #c0c0c0;
+	  background: #D0F5A9;
+
+	/*  margin-top: 0px;*/
+	  /*background: #fdfdfd;*/
+	}
+	.LLform-Btn {
+	  display: flex;
+	  /*flex-direction: row;*/
+	  justify-content: center;
+	  align-items: center;
+		text-align: center;
+	    background: #ACFA58; /*#4B8A08;*/
+	    color: #fdfdfd;
+	    font-size: 1.2em;
+	    font-weight:bold;
+	    padding: 0;
+	    border: none;
+	    border-radius: 5px;
+	    margin-left: 5%;
+	    margin-top: 10%;
+	    margin-bottom: 10%;
+	    width: 90%;
+	    height: 2em;
+	}
+}
