@@ -1,2 +1,22 @@
 # Login-Register
-Este repositório é voltado a o uso padronizado em login e registro de usuários em sites responsivos. Tendo como base o ReactJs-Formik-Yup-Css.
+Este repositório é voltado a o uso padronizado em login e registro de usuários em sites responsivos. Tendo como base as dependências:
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^3.4.1",
+    "formik": "^2.1.4",
+    "history": "^4.10.1",
+    "normalize.css": "^8.0.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-google-recaptcha": "^2.0.1",
+    "react-recaptcha": "^2.3.10",
+    "react-recaptcha-google": "^1.1.1",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.1.0",
+    "yup": "^0.28.5",
+    "zxcvbn": "^4.4.2"
